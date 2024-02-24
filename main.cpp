@@ -1,8 +1,8 @@
 /*
 CSE 310 Hash Function DIY Contest
 Instructor: Yiran "Lawrence" Luo
-Your name(s): Abdalla Osman. Breck
-Your team alias: 
+Your name(s): Abdalla Osman, Breck
+Your team alias: ChatDjb2
 */
 
 #include <iostream>
