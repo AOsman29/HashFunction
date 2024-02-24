@@ -93,3 +93,7 @@ int main() {
 
     return 0;
 }
+// possible things to speed up
+// what are the given constraints?
+//we know that we cannot have more than 500 words since n > 500
+//Any other constrains ?:
