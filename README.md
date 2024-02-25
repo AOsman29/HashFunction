@@ -28,7 +28,8 @@ Use a Hash Function Library: There are libraries available that provide implemen
 When experimenting with different hash functions, it's important to test the distribution of the hash values with your specific dataset to ensure that the chosen function provides a good balance between speed and uniformity.
 
 # Current speed of the Algorithm:
-Running encoder with input file: inputs/atoz.txt
+
+* Running encoder with input file: inputs/atoz.txt
 ==== Printing the contents of the first 5 slots ====
 Slot 0: jumps brown 
 Slot 1: The 
@@ -44,7 +45,7 @@ Slot 4: 2
 ==== Printing the standard variance =====
 0.4
 -------------------------------------------------
-Running encoder with input file: inputs/bertuncased.txt
+* Running encoder with input file: inputs/bertuncased.txt
 ==== Printing the contents of the first 5 slots ====
 Slot 0: errors resolve secular reverend investments cc payments strongest auction regiments boxer finest resolved accordance forbidden fin martinez lithuanian slopes 
 Slot 1: swords sharon criticised caves contestants tragedy disappointment managers twitter sponsor bullets supervision 
@@ -80,7 +81,7 @@ Slot 24: 15
 ==== Printing the standard variance =====
 3.01569
 -------------------------------------------------
-Running encoder with input file: inputs/common500.txt
+* Running encoder with input file: inputs/common500.txt
 ==== Printing the contents of the first 5 slots ====
 Slot 0: GAY ROOM EVERY WATER SPECIAL THOSE DEVELOPMENT RESEARCH M 
 Slot 1: YAHOO JULY THREAD STOCK LEARN LITTLE TITLE LOVE BOARD BIG SHIPPING PHONE DESIGN JANUARY N EMAIL WILL IS 
@@ -141,7 +142,7 @@ Slot 49: 10
 ==== Printing the standard variance =====
 3.1305
 -------------------------------------------------
-Running encoder with input file: inputs/mit_a.txt
+* Running encoder with input file: inputs/mit_a.txt
 ==== Printing the contents of the first 5 slots ====
 Slot 0: Angle Anaheim Amy Amber 
 Slot 1: Arabia Applicant Andrews Accurate 
@@ -252,7 +253,7 @@ Slot 99: 2
 ==== Printing the standard variance =====
 2.51396
 -------------------------------------------------
-Running encoder with input file: inputs/sample_input.txt
+* Running encoder with input file: inputs/sample_input.txt
 ==== Printing the contents of the first 5 slots ====
 Slot 0: boring banana 
 Slot 1: Applebee 
@@ -267,7 +268,7 @@ Slot 3: 3
 Slot 4: 2
 ==== Printing the standard variance =====
 0.748331
--------------------------------------------------
+------------------------------------------------- 
 
 
 
