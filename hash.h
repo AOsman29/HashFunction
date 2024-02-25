@@ -8,6 +8,9 @@ using namespace std;
 
 // You are free to use additional libraries as long as it's not PROHIBITED per instruction.
 
+//Here are the functions that we initilize in the header file 
+//any impovments that can be done?
+//any questions?
 struct Node {
     std::string key;
     Node* next;

@@ -1,8 +1,8 @@
 /*
 CSE 310 Hash Function DIY Contest
 Instructor: Yiran "Lawrence" Luo
-Your name(s): Abdalla Osman. Breck
-Your team alias: 
+Your name(s): Abdalla Osman, Breck
+Your team alias: ChatDjb2
 */
 
 #include <iostream>
@@ -93,3 +93,7 @@ int main() {
 
     return 0;
 }
+// possible things to speed up
+// what are the given constraints?
+//we know that we cannot have more than 500 words since n > 500
+//Any other constrains ?:
