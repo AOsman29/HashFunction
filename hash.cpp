@@ -12,8 +12,6 @@ void insert(Node*& head, const std::string& key) {
 }
 
 
-
-
 int hash_function(const string& text, int table_size) {
     unsigned long hash = 5381; // Initialize hash value
     int c;
