@@ -37,4 +37,3 @@ int hash_function(const string& text, int table_size) {
 
     return hash % table_size; // Modulo by the size of your hash table
 }
-
