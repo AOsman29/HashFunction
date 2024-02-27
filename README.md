@@ -6,6 +6,10 @@
 2.) The next goal, not as importatnt is to create a efficent enough hash function that has a good enough standred distribution, to place us in the top 5 of all hash function codes in the class. If we can do this, then we are rewarded with 2 extra credit points(which would actullly mean a lot).
 //Anything else?
 
+# The Professors algorithm
+-The professors algorithm has a standered diviation of 2.69 for the common500.txt, currently we have a run time of 3.1305, so we have alot of improving to be done, so we can get a better run time
+-Another thing to note is that the class avrage is between a 2.7 and 3.5, so that once again confrims we need to shoot for a time of 2.7 and below.
+
 # How can you run the program?
 -First go to the directoy where main.cpp hash.h MakeFile and hash.cpp are located
 -Next run the following command: g++-11 -o encoder main.cpp hash.cpp
