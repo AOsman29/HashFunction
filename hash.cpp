@@ -29,7 +29,7 @@ int hash_function(const string& text, int table_size) {
     //then gets muitpled by 33
     //we then add thee ASCI value of the charcter to this value
     //then we keep doing this until we reach the end of the word
-    
+    //For each of the chars in a word you need to randomize them the function get inputted
     for (size_t i = 0; i < text.length(); i++) {
         c = static_cast<unsigned char>(text[i]);
         hash = ((hash << 5) + hash) + c; // hash * 33 + c
