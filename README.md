@@ -1,6 +1,11 @@
 # HashFunction
  Chaining hash table implementation for ASU's CSE 310 Data Structures and Algorithms course, Spring 2024. This project uses the djb2 hashing function to distribute strings across table slots, aiming for low standard variance. It's designed to handle collisions through chaining, with each slot in the hash table being the head of a linked list. The program reads input strings and efficiently organizes them into the hash table, demonstrating key principles of hashing and collision resolution in C++.
 
+ # Whats the goal for this assignment:
+1.)The goal is, we nned to at minimum come up with a hash function that is able to beat professors algorithm? (How can we find out how fast professors algo is?).
+2.) The next goal, not as importatnt is to create a efficent enough hash function that has a good enough standred distribution, to place us in the top 5 of all hash function codes in the class. If we can do this, then we are rewarded with 2 extra credit points(which would actullly mean a lot).
+//Anything else?
+
 # How can you run the program?
 -First go to the directoy where main.cpp hash.h MakeFile and hash.cpp are located
 -Next run the following command: g++-11 -o encoder main.cpp hash.cpp
