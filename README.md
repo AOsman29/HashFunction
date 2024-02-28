@@ -41,6 +41,10 @@ When experimenting with different hash functions, it's important to test the dis
 =======could also consider the following========
 If you just want to have a good hash function, and cannot wait, djb2 is one of the best string hash functions i know. it has excellent distribution and speed on many different sets of keys and table sizes. you are not likely to do better with one of the "well known" functions such as PJW, K&R[1], etc. Also see tpop pp.
 
+According to a Reddit post, Murmur3 is recommended for short and simple hashing algorithms. 
+According to a Stack Overflow post, the djb2 algorithm is a hash function for strings that is similar to a Linear Congruential Generator (LCG). The djb2 hash function is considered one of the best string hash functions, with excellent distribution and speed. 
+According to a MiroTech article, the crc16, murmur2, and murmur3 implementations satisfy Pearson's chi-squared test of uniform distribution for almost all samples. The loseLose, Djb2, and Sdbm implementations failed the test. 
+
 # Current speed of the Algorithm:
 
 * Running encoder with input file: inputs/atoz.txt
