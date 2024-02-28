@@ -38,6 +38,9 @@ Use a Hash Function Library: There are libraries available that provide implemen
 
 When experimenting with different hash functions, it's important to test the distribution of the hash values with your specific dataset to ensure that the chosen function provides a good balance between speed and uniformity.
 
+=======could also consider the following========
+If you just want to have a good hash function, and cannot wait, djb2 is one of the best string hash functions i know. it has excellent distribution and speed on many different sets of keys and table sizes. you are not likely to do better with one of the "well known" functions such as PJW, K&R[1], etc. Also see tpop pp.
+
 # Current speed of the Algorithm:
 
 * Running encoder with input file: inputs/atoz.txt
