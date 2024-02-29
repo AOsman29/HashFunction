@@ -28,6 +28,7 @@ done
 -djb2 (time listed first below)
 -murmur3 (next algo that we listed next)
 
+
 # Possible Break Throughs:
 Tweak the djb2 Algorithm: You can experiment with different constants in the djb2 algorithm. The original algorithm uses the number 33 as a multiplier, but you can try other prime numbers to see if they yield a better distribution for your dataset.
 
