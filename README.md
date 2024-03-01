@@ -2,16 +2,16 @@
  Chaining hash table implementation for ASU's CSE 310 Data Structures and Algorithms course, Spring 2024. This project uses the djb2 hashing function to distribute strings across table slots, aiming for low standard variance. It's designed to handle collisions through chaining, with each slot in the hash table being the head of a linked list. The program reads input strings and efficiently organizes them into the hash table, demonstrating key principles of hashing and collision resolution in C++.
 
  # Whats the goal for this assignment:
-1.)The goal is, we nned to at minimum come up with a hash function that is able to beat professors algorithm? (How can we find out how fast professors algo is?).
-2.) The next goal, not as importatnt is to create a efficent enough hash function that has a good enough standred distribution, to place us in the top 5 of all hash function codes in the class. If we can do this, then we are rewarded with 2 extra credit points(which would actullly mean a lot).
+1.)The goal is, we nned to at minimum come up with a hash function that is able to beat the professor's algorithm. (How can we find out how fast Professor Algo is?).
+2.) The next goal, not as important is to create a efficient enough hash function that has a good enough standard distribution, to place us in the top 5 of all hash function codes in the class. If we can do this, then we are rewarded with 2 extra credit points(which would actually mean a lot).
 //Anything else?
 
-# The Professors algorithm
--The professors algorithm has a standered diviation of 2.69 for the common500.txt, currently we have a run time of 3.1305, so we have alot of improving to be done, so we can get a better run time
--Another thing to note is that the class avrage is between a 2.7 and 3.5, so that once again confrims we need to shoot for a time of 2.7 and below.
+# The professor's algorithm
+-The professor's algorithm has a standard deviation of 2.69 for the common500.txt, currently, we have a run time of 3.1305, so we have a lot of improving to be done, so we can get a better run time
+-Another thing to note is that the class average is between 2.7 and 3.5, so that once again confirms we need to shoot for a time of 2.7 and below.
 
 # How can you run the program?
--First go to the directoy where main.cpp hash.h MakeFile and hash.cpp are located
+-First go to the directory where main.cpp hash.h MakeFile and hash.cpp are located
 -Next run the following command: g++-11 -o encoder main.cpp hash.cpp
 -Once this command is ran, an encoder will be created
 -Now to compile all the desired inputs located in the inputs folder run the following command:
