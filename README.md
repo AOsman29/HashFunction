@@ -1,4 +1,5 @@
 # HashFunction
+### How it works?
  Chaining hash table implementation for ASU's CSE 310 Data Structures and Algorithms course, Spring 2024. This project uses the djb2 hashing function to distribute strings across table slots, aiming for low standard variance. It's designed to handle collisions through chaining, with each slot in the hash table being the head of a linked list. The program reads input strings and efficiently organizes them into the hash table, demonstrating key principles of hashing and collision resolution in C++.
 
  # Whats the goal for this assignment:
