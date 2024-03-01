@@ -51,7 +51,7 @@ According to a Stack Overflow post, the djb2 algorithm is a hash function for st
 According to a MiroTech article, the crc16, murmur2, and murmur3 implementations satisfy Pearson's chi-squared test of uniform distribution for almost all samples. The loseLose, Djb2, and Sdbm implementations failed the test. 
 
 # Current speed of the Algorithm:
-
+***With professor-provided inputs (Doesn't represent overall speed)***
 * Running encoder with input file: inputs/atoz.txt
 ==== Printing the contents of the first 5 slots ====
 Slot 0: jumps brown 
